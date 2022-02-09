@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   height: 100vh;
 }
-.bg__img {
+.bg__img--signin {
   z-index: -2;
   min-height: 100vh;
   background-image: url("../img/photo_2022-02-09_01-32-38.jpg");
@@ -42,15 +42,6 @@ body {
   opacity: 0.10000000149011612;
 }
 
-@media (max-width: 800px) {
-  .sign__in--line::before {
-    display: none;
-  }
-  .sign__in::before {
-    display: none;
-  }
-}
-
 @media (max-width: 750px) {
   .bg__img {
     background-image: url("../img/photo_2022-02-09_23-30-24.jpg");
@@ -58,6 +49,12 @@ body {
   }
   .title::before {
     width: 470px;
+  }
+  .sign__in--line::before {
+    display: none;
+  }
+  .sign__in::before {
+    display: none;
   }
 }
 .google__btn {
@@ -73,4 +70,13 @@ body {
 }
 .sign__in__btn {
   background: linear-gradient(to left, #6149cd, #a654ac, #ea5f8b);
+}
+/* signup */
+.bg__img--signup {
+  z-index: -2;
+  min-height: 100vh;
+  background-image: url("../img/photo_2022-02-10_00-47-55.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
