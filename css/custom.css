@@ -11,7 +11,7 @@ body {
   background-image: url("../img/photo_2022-02-09_01-32-38.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right right;
+  background-position: center center;
 }
 
 .title::before {
