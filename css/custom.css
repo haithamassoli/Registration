@@ -80,3 +80,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* Forgot password? */
+.bg__img--signup {
+  z-index: -2;
+  min-height: 100vh;
+  background-image: url("../img/photo_2022-02-10_01-13-08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
